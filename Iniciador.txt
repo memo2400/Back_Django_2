@@ -1,0 +1,39 @@
+
+#### Entorno ####
+
+crear entorno 
+python -m venv venv
+
+activar
+venv\Scripts\activate
+
+instalar requisitos
+$ python -m pip install -r requirements.txt
+$ python3 -m pip install -r requirements.txt
+
+
+#### instalar manual #####
+
+Intalar 
+$ pip install 
+
+
+#### guardar requerimientos ####
+
+pip freeze > requirements.txt
+
+
+###### ACTUALIZAR LIBRERIA 1 POR 1 ###########
+
+$ pip install --upgrade yt-dlp
+
+$ pip freeze > requirements.txt
+
+
+###### ACTUALIZAR LIBRERIA MASSIVO nO LO HE PROBADO ###########
+
+pip install pip-tools
+
+pip-compile --upgrade requirements.txt
+
+pip install -r requirements.txt
