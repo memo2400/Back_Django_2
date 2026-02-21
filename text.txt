@@ -1,2 +1,17 @@
 
+correr el server
+$ python manage.py runserver
+
+activar modelo
+$ python manage.py migrate
+
 hasta pag 387
+
+crear super user
+$ python manage.py createsuperuser
+
+lider_supremo
+Ca***$
+
+eso nos crea 
+http://127.0.0.1:8000/admin/login/?next=/admin/
