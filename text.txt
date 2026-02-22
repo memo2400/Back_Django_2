@@ -2,6 +2,9 @@
 correr el server
 $ python manage.py runserver
 
+migrar la base de datos:
+$ python manage.py makemigrations app_name
+
 activar modelo
 $ python manage.py migrate
 
