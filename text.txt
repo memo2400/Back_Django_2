@@ -18,3 +18,10 @@ Ca***$
 
 eso nos crea 
 http://127.0.0.1:8000/admin/login/?next=/admin/
+
+
+## checar como va el progrma con shell
+$ python manage.py shell
+
+si ejecuto un for, hay que ejecuarlo varoas veces hasta que
+des varios enter y asi ya queda.
